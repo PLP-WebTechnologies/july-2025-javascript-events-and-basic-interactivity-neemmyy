@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My JavaScript Assignment</h1>
+    <button id="themeBtn">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <!-- Event handling demo -->
+  <section>
+    <h2>Click & Mouse Events</h2>
+    <button id="helloBtn">Click Me</button>
+    <p id="helloText"></p>
+    <div id="hoverBox">Hover over me!</div>
+  </section>
+
+  <!-- Interactive feature 1 -->
+  <section>
+    <h2>Counter</h2>
+    <button id="plusBtn">Increase</button>
+    <button id="minusBtn">Decrease</button>
+    <p>Value: <span id="countNum">0</span></p>
+  </section>
+
+  <!-- Interactive feature 2 -->
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <button class="faq-toggle">What is HTML?</button>
+      <div class="faq-content">HTML is the structure of a web page.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-toggle">What is CSS?</button>
+      <div class="faq-content">CSS is used to style a web page.</div>
+    </div>
+  </section>
+
+  <!-- Form with advanced validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="myForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <small class="err" id="nameErr"></small>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email">
+      <small class="err" id="emailErr"></small>
+
+      <label for="pass">Password:</label>
+      <input type="password" id="pass">
+      <small class="err" id="passErr"></small>
+
+      <label for="confirm">Confirm Password:</label>
+      <input type="password" id="confirm">
+      <small class="err" id="confirmErr"></small>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone">
+      <small class="err" id="phoneErr"></small>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

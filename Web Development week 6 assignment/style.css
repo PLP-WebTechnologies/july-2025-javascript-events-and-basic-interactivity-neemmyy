@@ -1,0 +1,83 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Dark mode */
+.dark {
+  background: #222;
+  color: #f9f9f9;
+}
+
+/* FAQ */
+.faq-content {
+  display: none;
+  padding: 5px;
+  background: #eee;
+  margin: 5px 0;
+}
+
+/* Hover box */
+#hoverBox {
+  width: 150px;
+  height: 80px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+input {
+  margin-bottom: 8px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.err {
+  color: red;
+  font-size: 0.85em;
+}
+
+#formMsg {
+  font-weight: bold;
+  margin-top: 10px;
+  color: green;
+}
